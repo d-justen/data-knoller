@@ -110,7 +110,7 @@ public class ChangePhoneFormatTest extends PreparatorTest {
         pipeline.executePipeline();
 
         pipeline.getRawData().show();
-        
+
         Assert.assertTrue(pipeline.getErrorRepository().getErrorLogs().isEmpty());
     }
 }
